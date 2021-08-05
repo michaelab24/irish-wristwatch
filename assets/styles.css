@@ -7,8 +7,8 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../assets/images/iw-temp-hero.jpg.jpg");
-    background-size: cover;
+    background-image: url("../assets/images/yee.jpg");
+    /* background-size: cover; */
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
@@ -18,8 +18,8 @@ header {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: red;
+    text-shadow: 0 0 10px rgba(230, 6, 6, 0.74);
   }
   
   header a {
@@ -43,7 +43,8 @@ header {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(238, 5, 5, 0.5);
+    color: red;
   }
   
   header nav ul li a:hover {
@@ -52,3 +53,67 @@ header {
     border-radius: 15px;
     text-shadow: none;
   }
+
+  /* WHAT WE DO STYLES */
+.intro p {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+  }
+  /* WHAT YOU DO STYLES END */
+
+  /* HERO STYLES START */
+  .hero {
+    background-image: url('../assets/images/iw-temp-hero.jpg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  .hero-cta {
+    width: 35%;
+    text-align: center;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  /* Who we are styles */
+
+  /* .theWatch {
+     
+  } */
+
+  .section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+  
+  .primary-border {
+    border-color: var(--primary-color);
+  }
+  
+  .secondary-border {
+    border-color: var(--tertiary-color);
+  }
+
+.members {
+    font-size: x-large;
+}
+
+.shows {
+    font-size: xx-large;
+}
